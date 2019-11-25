@@ -8,7 +8,7 @@ input, select, textarea {
 	font-size: 16px;
 }
 ```
-##### 2. 修改meta项禁用浏览器自动缩放
+##### 2. 修改meta中的viewport项禁用浏览器自动缩放
 
 ```html
 <head>
