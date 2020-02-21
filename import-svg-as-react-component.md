@@ -6,7 +6,7 @@
   <path {...} fill="currentColor"/>
 </svg>
 ```
-2. 将svg文件以React Component形式导入。参见：https://stackoverflow.com/questions/54519654/how-do-i-add-color-to-my-svg-image-in-react
+2. 将svg文件以React Component形式导入。参见：https://create-react-app.dev/docs/adding-images-fonts-and-files/#adding-svgs
 ```javascript
 import { ReactComponent as Arrow } from 'client/images/arrow.svg'
 ```
