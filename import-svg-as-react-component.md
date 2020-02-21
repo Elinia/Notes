@@ -1,7 +1,7 @@
 # React中如何使svg继承父组件颜色
 
 1. 将svg文件内想要继承颜色的部分设置 `fill: currentColor` 
-```html
+```xml
 <svg {...} xmlns="http://www.w3.org/2000/svg">
   <path {...} fill="currentColor"/>
 </svg>
@@ -11,7 +11,7 @@
 import { ReactComponent as Arrow } from 'client/images/arrow.svg'
 ```
 3. 按需求设置父组件颜色
-```html
+```jsx
 <div style={{ color: getColor() }}>
   <Arrow />
 </div>
